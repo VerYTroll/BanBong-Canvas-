@@ -121,6 +121,8 @@ function init() {
     enemies = [];
     particles = [];
     score = 0;
+    bigScore.innerHTML = score;
+    smallScore.innerHTML = score;
     clearInterval(spawnEnemiesID);
 }
 
