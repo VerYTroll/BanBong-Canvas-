@@ -191,6 +191,7 @@ function animate() {
         let distance = Math.hypot(enemies[i].x - player.x, enemies[i].y - player.y)
         if (distance - enemies[i].radius - player.radius < 0) {
             cancelAnimationFrame(animationID);
+            clearInterval(spawnEnemiesID);
             bigScore.innerHTML = score;
             overlayMenu.style.display = "flex";
         }
