@@ -52,6 +52,11 @@ body {
     font-size: 22px;
 }
 
+.whiteTable span:nth-child(3) {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
 .whiteTable #bigScore {
     line-height: 1;
     color: black;
